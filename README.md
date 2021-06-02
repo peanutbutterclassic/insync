@@ -19,14 +19,12 @@ Site owner's goal:
     * Feedback
 
 <!-- Content to be included in final readme -->
-Distinction Performance
-At this level, a learner will have achieved all pass and merit criteria, as described above, and will demonstrate characteristics of high-level performance as described below:
 
-Characteristics of performance at DISTINCTION level:
+### Aim
 
-The learner has documented a clear, justified rationale for a real-world application. The development of the project has resulted in a fully-functioning, interactive web application.
+The website provides a fully-functioning, interactive web application with professional-grade user interface and interaction adhering to current best practice.
 
-The finished project is judged to be publishable in its current form with an evidenced professional-grade user interface and interaction adhering to current practice. There are no logic errors in the code. Where there is a clear breach of accepted design/UX principles or accepted good practice in code organisation, these are fully justified, appropriate and acceptable to the target user. It matches the design and demonstrates the characteristics of craftsmanship in the code. The resulting application is original and not a copy of any walkthrough projects encountered in the unit
+There are no logic errors in the code. Where there is a clear breach of accepted design/UX principles or accepted good practice in code organisation, these are fully justified, appropriate and acceptable to the target user. It matches the design and demonstrates the characteristics of craftsmanship in the code. The resulting application is original and not a copy of any walkthrough projects encountered in the unit
 
 Amplification (craftsmanship):
 
@@ -39,7 +37,8 @@ Information Hierarchy
 semantic markup is used to convey structure - all information displayed on the site is presented in an organised fashion, with each piece of information being easy to find
 all resources on the site are easy to find, allowing users to navigate the layout of the site intuitively
 information is presented and categorised in terms of its priority
-User Control
+
+### User Control
 
 all interaction with the site would be likely to produce a positive emotional response within the user. This is down to the flow of information layout, use of colour, clear and unambiguous navigation structures and all interaction feedback
 when displaying media files, the site avoids aggressive automatic pop-ups and autoplay of audio; instead letting the user initiate and control such actions
@@ -51,9 +50,9 @@ evident across all pages/sections and covers interactivity as well as design
 Confirmation
 
 user actions are confirmed where appropriate, feedback is given at all times
-Accessibility
+### Accessibility
 
-there is evident conformity to accessibility guidelines across all pages/sections and in all interactivity
+The website fully conforms to accessibility guidelines across all pages/sections and in all interactivity
 Any design decisions that contravene accepted user interaction, user experience design principles are identified and described (comments in code or a section in the README)
 
 Development and Implementation
