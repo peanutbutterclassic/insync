@@ -16,6 +16,7 @@ Site owner's goal:
 * Potential features to include:
     * A score tracking system
     * A timer (for speed reading of contents and answering questions)
+    * A ranking system to create competition and engagement with prizes for top drawer
     * Images to support the correct/incorrect answers
     * User can create a username
     * Feedback
