@@ -1,5 +1,15 @@
 # InSync 
 ## About InSync
+InSync is an online multidisciplinary educational game, which is designed to help people with learning difficulty improve their comprehensive skills. 
+The game comprises of four disciplines which are listed as follows:
+1. Current affairs;
+2. Sports;
+3. STEM (Science, Technology, Engineering and Maths);
+4. Arts, Humanity & Literature. 
+
+The structure of the online quiz is very simple. Each discipline is divided into the following:
+1. An information page where players need to read, listen and watch interactive videos to accumulate new information;
+2. A quiz section to test players' ability to capture new information and answer questions accordingly.
 
 ## Main Technologies
 * Required: 
@@ -28,6 +38,8 @@ Site owner's goal:
 ### Accessibility
 ## Reference
 1. Online Python Tutor: Embeddable Web-Based Program Visualization for CS Education. ACM Technical Symposium on Computer Science Education (SIGCSE), 2013. [ACM DL]
+2. [Quizzit](https://quizizz.com/join)
+
 ## Acknowledgement 
 
 <!-- MP2 requirements -->
