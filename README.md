@@ -1,5 +1,6 @@
 # InSync 
 ## About InSync
+
 ## Main Technologies
 * Required: 
     * HTML, 
@@ -14,6 +15,7 @@ Site owner's goal:
 * The goal of the site is to provide a challenging quiz to entertain online users.
 * Potential features to include:
     * A score tracking system
+    * A timer (for speed reading of contents and answering questions)
     * Images to support the correct/incorrect answers
     * User can create a username
     * Feedback
@@ -21,6 +23,13 @@ Site owner's goal:
 <!-- Content to be included in final readme -->
 
 ### Aim
+### User Control
+### Accessibility
+## Reference
+1. Online Python Tutor: Embeddable Web-Based Program Visualization for CS Education. ACM Technical Symposium on Computer Science Education (SIGCSE), 2013. [ACM DL]
+## Acknowledgement 
+
+<!-- MP2 requirements -->
 
 The website provides a fully-functioning, interactive web application with professional-grade user interface and interaction adhering to current best practice.
 
