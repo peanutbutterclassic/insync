@@ -1,49 +1,53 @@
 const question = document.querySelector("#question");
-const choices = Array.from(document.querySelectorAll(".choice-text));
+const choices = Array.from(document.querySelectorAll(".choice-text"));
 const progressText = document.querySelector("#progressText");
 const scoreText = document.querySelector("#score");
 const progressBarFull = document.querySelector("#progressBarFull");
 
-let currentQuestion = {}
-let acceptingAnswers = true
-let score = 0
-let questionCounter = 0
-let availableQuestions = []
+let currentQuestion = {};
+let acceptingAnswers = true;
+let score = 0;
+let questionCounter = 0;
+let availableQuestions = [];
 
 let questions = [
     {
         question: "When was the last time England won a world cup",
-        Choice 1: 1966
-        Choice 1: 2002
-        Choice 1: 1990
-        Choice 1: 1998
-        answer: 2
+        choices: [
+            { title: "2002", answer: false },
+            { title: "1966", answer: true },
+            { title: "1998", answer: false },
+            { title: "1986", answer: false },
+        ]
     },
     {
         question: "When was the last time England won a world cup",
-        Choice 1: 1966
-        Choice 1: 2002
-        Choice 1: 1990
-        Choice 1: 1998
-        answer: 2
+        choices: [
+            { title: "2002", answer: false },
+            { title: "1966", answer: true },
+            { title: "1998", answer: false },
+            { title: "1986", answer: false },
+        ]
     },
     {
         question: "When was the last time England won a world cup",
-        Choice 1: 1966
-        Choice 1: 2002
-        Choice 1: 1990
-        Choice 1: 1998
-        answer: 2
+        choices: [
+            { title: "2002", answer: false },
+            { title: "1966", answer: true },
+            { title: "1998", answer: false },
+            { title: "1986", answer: false },
+        ]
     },
     {
         question: "When was the last time England won a world cup",
-        Choice 1: 1966
-        Choice 1: 2002
-        Choice 1: 1990
-        Choice 1: 1998
-        answer: 2
-    },
-]
+        choices: [
+            { title: "2002", answer: false },
+            { title: "1966", answer: true },
+            { title: "1998", answer: false },
+            { title: "1986", answer: false },
+        ]
+    }
+];
 
 const SCORE_POINTS = 100
 const MAX_QUESTIONS = 4
