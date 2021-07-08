@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InSync</title>
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="justify-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form id="finalScore">
+                <h2 id="end-text">Enter your name below to save your score</h2>
+                <input type="text" name="name" id="username" placeholder="Enter your name">
+                <button type="submit" class="quiz-button" id="saveScoreButton" onclick="saveHighScore(event)" disabled>Save</button>
+            </form>
+            <a href="/quiz.html" class="quiz-button">Play Again</a>
+            <a href="/index.html" id="leaderboard-button" class="quiz-button">Return Home</a>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
