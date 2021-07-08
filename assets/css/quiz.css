@@ -1,5 +1,7 @@
-body {
-    color: cornsilk;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron&display=swap');
+
+:root {
+    background-color: rgb(134, 125, 125);
 }
 
 .choice-container {
@@ -60,11 +62,11 @@ body {
     height: 3rem;
     border: 0.2rem solid rgb(11, 233, 36);
     margin-top: 3rem;
-    border-radius: 58px;
+    border-radius: 50px;
     overflow: hidden;
 }
 
-.progressBarFull {
+#progressBarFull {
     height: 100%;
     background: rgb(11, 233, 36);
     width: 0%;

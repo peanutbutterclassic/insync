@@ -71,7 +71,7 @@ h2 {
     transform: scale(1.03);
 }
 
-.quiz-button[:disabled]:hover {
+.quiz-button[disabled]:hover {
     cursor: not-allowed;
     box-shadow: none;
     transform: none;
