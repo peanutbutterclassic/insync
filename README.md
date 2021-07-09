@@ -16,6 +16,11 @@ The structure of the online quiz is very simple. Each discipline is divided into
     * HTML, 
     * CSS, 
     * JavaScript.
+    * JavaScript Libraries:
+        * [JQuery](https://jquery.com/)
+        * [ReactJS](https://reactjs.org/)
+    * Javascript framework:
+        * [Vue.js](https://vuejs.org/)
 * Optional: 
     * Google Charts
 
