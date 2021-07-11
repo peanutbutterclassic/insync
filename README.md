@@ -46,7 +46,8 @@ Site owner's goal:
 2. [Quizzit](https://quizizz.com/join)
 
 ## Acknowledgement 
-
+I want to thank Code Institute's tutorial team for their patience and support throughout my coding development. Finally, a shout out to my mentor Guido who has been phenomenal since I started coding. He has given me valuable guidance and support while ensuring I take that stride to be adventurous with new technologies.
+ 
 <!-- MP2 requirements -->
 
 The website provides a fully-functioning, interactive web application with professional-grade user interface and interaction adhering to current best practice.
@@ -153,5 +154,7 @@ The application’s user interface has few errors in spelling and grammar
 1. Online Python Tutor: Embeddable Web-Based Program Visualization for CS Education. ACM Technical Symposium on Computer Science Education (SIGCSE), 2013. [ACM DL]
 2. [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3763s)
 3. [Web Dev Simplified](https://youtu.be/riDzcEQbX6k)
-4. [Parade](https://parade.com/1221929/jessicasager/lgbtq-trivia/)
+4. [The Guardian Sports](https://www.theguardian.com/sport/2021/jun/25/sports-quiz-week-euro-2020-jon-rahm-copa-america-joe-marler)
+5. [Parade](https://parade.com/1221929/jessicasager/lgbtq-trivia/)
+6. [Radio Times](https://www.radiotimes.com/quizzes/pub-quiz-science/)
 
