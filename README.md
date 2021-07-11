@@ -152,4 +152,6 @@ The application’s user interface has few errors in spelling and grammar
 ## Reference
 1. Online Python Tutor: Embeddable Web-Based Program Visualization for CS Education. ACM Technical Symposium on Computer Science Education (SIGCSE), 2013. [ACM DL]
 2. [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3763s)
+3. [Web Dev Simplified](https://youtu.be/riDzcEQbX6k)
+4. [Parade](https://parade.com/1221929/jessicasager/lgbtq-trivia/)
 
