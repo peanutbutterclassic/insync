@@ -331,7 +331,7 @@ let questions = [
 ];
 
 const SCORE_POINTS = 100;
-const MAX_QUESTIONS = 4;
+const MAX_QUESTIONS = 10;
 
 startGame = () => {
     questionCounter = 0;
@@ -358,7 +358,7 @@ getNewQuestion = () => {
     choices.forEach((choice, index)  => {
         const c = currentQuestion.choices[index];
         choice.innerText = c.title;
-        choice.dataset.answer = c.answer;
+        choice.dataset.answer = c.answer; 
     });
 
     // Remove the question from the array based on the index
@@ -384,9 +384,21 @@ choices.forEach(choice => {
         }
 
         selectedChoice.parentElement.classList.add(classToApply);
-    });
-});
 
+        // set timeout
+        setTimeout(() => {
+            selectedChoice.parentElement.classList.remove(classToApply);
+            getNewQuestion();
+
+        }, 1000);
+    })
+})
+
+// incremement score
 incrementScore = (num) => {
     score += num;
-};
+    // additional code 
+    scoreText.innerText = score;
+}
+
+startGame()
