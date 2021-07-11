@@ -149,5 +149,25 @@ input {
     box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5)
 }
 
+input::placeholder {
+    color: thistle;
+}
+
+#username {
+    margin-bottom: 3rem;
+    width: 100%;
+    outline: none;
+}
+
+#end-text {
+    font-size: 2.4rem;
+    color:thistle;
+    text-align: center;
+}
+
+#saveScoreButton {
+    border: none;
+
+}
 
 
