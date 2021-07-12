@@ -4,7 +4,6 @@ const progressText = document.querySelector("#progressText");
 const scoreText = document.querySelector("#score");
 const progressBarFull = document.querySelector("#progressBarFull");
 
-
 let currentQuestion = {};
 let acceptingAnswers = true;
 let score = 0;
@@ -342,7 +341,7 @@ startGame = () => {
 }
 
 getNewQuestion = () => {
-    if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
+    if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem("mostRecentScore", score)
         
         return window.location.assign("/end.html")
@@ -392,7 +391,12 @@ choices.forEach(choice => {
             getNewQuestion();
 
         }, 1000);
-    })
+    });
+
+    // Audio buttons
+    choice.addEventListener("click", () => {
+        click.play();
+    });
 })
 
 // incremement score
@@ -402,19 +406,26 @@ incrementScore = (num) => {
     scoreText.innerText = score;
 }
 
-startGame()
+const setupAudio = () => {
+    // Load audios
+    const click = new Audio("assets/sound/rucksack.mp3");
+
+    // Audio buttons
+    const clickButton = document.querySelectorAll(".click");
+    clickButton.forEach((element) => {
+        element.addEventListener("click", () => {
+            click.play();
+        });
+    });
+}
+
+setupAudio();
+
+startGame();
 
 
 // volume
 const volumeMenu = document.getElementById("volume-up-menu");
-
-// Audio buttons
-const clickButton = document.querySelectorAll(".click");
-clickButton.forEach((element) => {
-    element.addEventListener("click", function () {
-        click.play();
-    });
-});
 
 // Create modal box for quiz game
 var modal = document.getElementById("myModal");
