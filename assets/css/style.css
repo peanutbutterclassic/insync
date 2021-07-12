@@ -82,7 +82,7 @@ h2 {
 }
 
 /* Credit buttons */
-.credit-button {
+.lead-button {
     font-size: 2.4rem;
     padding: 2rem 0;
     width: 30rem;
@@ -94,7 +94,7 @@ h2 {
     border-radius: 4px;
 }
 
-.credit-button:hover {
+.lead-button:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgb(244, 240, 8);
     transition: transform 150ms;
@@ -112,6 +112,7 @@ h2 {
     color: rgb(28, 26, 26);
     background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
     border-radius: 4px;
+    margin-bottom: 10rem;
 }
 
 .quiz-button:hover {
