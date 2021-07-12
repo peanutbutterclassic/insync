@@ -254,7 +254,7 @@ input::placeholder {
 
 /* Modal Content/Box */
 .modal-content {
-    background-color: palevioletred;
+    background: palevioletred;
     margin: 15% auto;
     /* 15% from the top and centered */
     padding: 20px;

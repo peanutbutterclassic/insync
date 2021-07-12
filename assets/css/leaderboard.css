@@ -16,3 +16,20 @@ body {
 .score-name {
     width: 100px;
 }
+
+/* Style leaderboard table */
+table {
+    width: 100%;
+    padding: 1rem 2rem;
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(36, 151, 7);
+    margin-bottom: 5rem;
+    border-radius: 8px;
+}
+
+.champ {
+    font-size: 3rem;
+    font-weight: 800;
+}
