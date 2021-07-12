@@ -158,4 +158,5 @@ The application’s user interface has few errors in spelling and grammar
 5. [Parade](https://parade.com/1221929/jessicasager/lgbtq-trivia/)
 6. [Radio Times](https://www.radiotimes.com/quizzes/pub-quiz-science/)
 7. Sound from [Zapslat](https://www.zapsplat.com/)
+8. [Traversy Media](https://www.youtube.com/watch?v=6ophW7Ask_0)
 
