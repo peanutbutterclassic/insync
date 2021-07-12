@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron&display=swap');
 
 :root {
-    background-color: rgba(13, 14, 13, 0.863);
+    /* background-color: rgba(13, 14, 13, 0.863); */
+    background: url("/assets/images/pexels-miguel.webp") no-repeat fixed center;
 }
 
 * {
