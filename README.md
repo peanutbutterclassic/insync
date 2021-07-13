@@ -11,16 +11,14 @@ For example, Love Maths is a site that hopes to demonstrate how pure JavaScript 
 
 # InSync 
 ## About InSync
-InSync is an online multidisciplinary educational game, which is designed to help people with learning difficulty improve their comprehensive skills. 
+InSync is an online multidisciplinary educational game, which is designed to help users stay up to date with both current affairs and. 
 The game comprises of four disciplines which are listed as follows:
 1. Current affairs;
 2. Sports;
-3. STEM (Science, Technology, Engineering and Maths);
+3. STEM (Science, Technology, Engineering and Mathematics);
 4. Arts, Humanity & Literature. 
 
-The structure of the online quiz is very simple. Each discipline is divided into the following:
-1. An information page where players need to read, listen and watch interactive videos to accumulate new information;
-2. A quiz section to test players' ability to capture new information and answer questions accordingly.
+The website is easy to navigate as it follow a three-click rule and provides ease of use for people with disability.
 
 ## Features 
 
@@ -291,4 +289,5 @@ The application’s user interface has few errors in spelling and grammar
 7. Sound from [Zapslat](https://www.zapsplat.com/)
 8. [Traversy Media](https://www.youtube.com/watch?v=6ophW7Ask_0)
 9. [Photo by Chris F from Pexels](https://www.pexels.com/photo/a-broken-wooden-door-3714194/)
+10. [Minna Nurmiluoto](https://dev.to/minna_xd/adding-a-high-score-table-to-javascript30-whack-a-mole-4adk)
 
