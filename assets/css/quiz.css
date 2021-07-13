@@ -55,10 +55,12 @@ body {
 .hud-prefix {
     text-align: center;
     font-size: 2rem;
+    
 }
 
 .hud-main-text {
     text-align: center;
+    
 }
 
 #progressBar {
@@ -73,7 +75,7 @@ body {
 #progressBarFull {
     height: 100%;
     background: rgb(11, 233, 36);
-    width: 100%;
+    width: 0%;
 }
 
 @media screen and (max-width: 768px) {
