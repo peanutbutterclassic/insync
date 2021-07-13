@@ -107,32 +107,28 @@ In the end, this particular issue was resolved by adding class="click" to every 
     ![CSS error justification](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/css_validator.png)
 
 - JavaScript
-    - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
-      - The following metrics were returned: 
-      - There are 11 functions in this file.
-      - Function with the largest signature takes 2 arguments, while the median is 0.
-      - Largest function has 10 statements in it, while the median is 3.
-      - The most complex function has a cyclomatic complexity value of 4 while the median is 2.
+![JavaScript validation](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/javascript_validator.png)
+
+- JavaScript validation showed 47 warnings when passing through the official [Jshint validator](https://jshint.com/)
+    - The following metrics were returned: 
+      - There are 15 functions in this file;
+      - Function with the largest signature take 2 arguments, while the median is 0;
+      - Largest function has 12 statements in it, while the median is 2; and,
+      - The most complex function has a cyclomatic complexity value of 4 while the median is 1.
+      
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+The aim was to create a functioning quiz website. Major bug fixes have been performed and reported in the TESTING section. Considering the limited time left before deadline, addressing and fixing the validation of CSS and Javascript errors or warning shall be put on pending since the website is already working as expected. However, additional efforts will be allocated to improve the quality of the code after receiving comments from external review.  
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - [InSync](https://peanutbutterclassic.github.io/insync/)
-
+  - The live link can be found here - [InSync](https://peanutbutterclassic.github.io/insync/)
 
 ## Credits 
 
-A special mention to [Code Institute](https://codeinstitute.net/)'s tutoring team for their support throughout my coding development. My mentor Guido has been phenomenal because he has kept encouraging me to try new things. The w3schools' resources have helped me overcome many hurdles. [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3763s)' tutorial on YouTube has helped me gain an knowledge on how quiz are created using codes. 
+A special mention to [Code Institute](https://codeinstitute.net/)'s tutoring team for their support throughout my coding development. My mentor Guido has been phenomenal because he has kept encouraging me to try new things. The w3schools' resources have helped me overcome many hurdles. [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3763s)' tutorial on YouTube has helped me gain an knowledge on the logic behind creating a quiz through HTML, CSS and JavaScript. 
 
 ### Content 
 
