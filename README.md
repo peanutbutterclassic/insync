@@ -1,16 +1,16 @@
 
 # InSync 
 ## About InSync
-InSync is an online multidisciplinary educational game, which is designed to help users stay up to date with both current affairs and. 
+InSync is an online multidisciplinary educational game, which is designed to help users stay up to date with the current affairs as well as matters relating to STEM (Science, Technology, Engineering and Mathematics), Sports, Arts and Literature. 
 The game comprises of four disciplines which are listed as follows:
 1. Current affairs;
 2. Sports;
 3. STEM (Science, Technology, Engineering and Mathematics);
 4. Arts, Humanity & Literature. 
 
-The website is easy to navigate as it follow a three-click rule and provides ease of use for people with disability.
+The website is easy to navigate as it follows a [three-click rule](https://brand-experience.ieee.org/the-3-click-rule-myth-or-fact/) and provides ease of use for people with disability.
 
-![Responsice Mockup](media/love_maths_mockup.png)
+![Responsive Mockup](media/love_maths_mockup.png)
 
 ## Features 
 
@@ -46,17 +46,16 @@ This quiz game is easy to operate, thanks to its simple design.
   - If a user is unhappy with the score, this is the moment to give it another try by clicking on the play again button. 
   - There is an option to return to the homepage if a user is unsatisfied with his/her performance and want to quit. That user may be tempted to give it another try once he/she gets back to the homepage. 
 
+- __The Score Board__
+![score](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/enter_username.png)
 
-![score](media/love_maths_answer.png)
+Upon completing the game, user can save their score and check in the leaderboard to see how well they did against all odds.
 
 - __The Leaderboard Page__
+![InSync Leaderboard](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/leaderboard.png)
 
-  - This is an area reserved for those who score the highest points during the quiz. 
+  - This is an area reserved for those who scored the highest points during the quiz. 
   - The data is gather from the game session(s) and stored locally to present the top performers. 
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 
@@ -88,7 +87,7 @@ Several notable brick walls that I have encountered during the development of th
 2. ![Glitch identified during debugging process](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/increm_error_spotted.png)
 3. ![Glitch identified during debugging process](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/incremental_error_fixed.png)
 
-Although the issue was apparent as shown in image 1 but the answer to the issue did not come immediately. Figure 2 showed at the issue occured because of the nature of incrementation which meant [questionCounter > MAX_QUESTIONS] would not return a number less that 10. Intead, the following, as indicated in figure 3 above [questionCounter === MAX_QUESTIONS] returned the right number of questions for the said issue identified in figure 1.
+Although the issue was apparent, as shown in image 1, but the solution did not come immediately. Figure 2 showed that the issue occured because of the nature of incrementation which meant [questionCounter > MAX_QUESTIONS] does not return a number less that 10. Instead, the following, as indicated in figure 3 [questionCounter === MAX_QUESTIONS], returned the right number of questions for the said issue identified in figure 1.
 
 Another issue was identified while using Google Chrome Developer's tool during inspection of the website. 
 ![Sound issue](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/Sound_issue.png)
