@@ -1,13 +1,3 @@
-# Love Maths
-
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
-
-For example, Love Maths is a site that hopes to demonstrate how pure JavaScript works in a real-world context. The site will be targeted toward people who not only love to implement more advanced JavaScript concepts but also maths. Love Maths is a fully responsive JavaScript maths game that will allow users to add, subtract, multiply and divide numbers. 
-
-![Responsice Mockup](media/love_maths_mockup.png)
-
-
-
 
 # InSync 
 ## About InSync
@@ -32,21 +22,21 @@ This quiz game is easy to operate, thanks to its simple design.
 
   - The LET'S PLAY button in the middle of the page is placed there on purpose to lure users to click this button first.
 
-![Logo](media/love_maths_logo.png)
+![LET'S PLAY](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/Landing_page.png)
 
-- __The Game Area__
+- __Leaderboard Button__
 
-  - This section will allow the user to play the maths game. The user will be able to easily see icons for addition,  subtraction, multiplication, and division games.
-  - The user will be able to select the type of maths game they will be playing by clicking on the different icons. 
-
-![Game](media/love_maths_icons.png)
+  - This button takes user straight to the leaderboard page where all the scores are stored in a two column table that includes NAME and SCORE.
 
 - __The Question section__
 
-  - The question section is where the user will be able to see the elementary arithmetic question to answer as part of the game. The user will be able answer the questions in the answer box provide
-  - The user will be able to submit their answer and a pop-up will make it known to the user if they answered correctly. 
+  - Upon clicking on the LET'S PLAY button, the user will be directed to the quiz page where he/she will have to answer ten randomly selected questions from a database of 60 questions covering four different disciplines which are as follows:
+  1. Current affairs;
+  2. Sports;
+  3. STEM (Science, Technology, Engineering and Mathematics);
+  4. Arts, Humanity & Literature.
 
-![Question](media/love_maths_question.png)
+![Quiz Area](media/love_maths_question.png)
 
 - __The Score Area__
 
