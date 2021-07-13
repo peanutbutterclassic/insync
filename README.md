@@ -22,7 +22,7 @@ This quiz game is easy to operate, thanks to its simple design.
 
   - The LET'S PLAY button in the middle of the page is placed there on purpose to lure users to click this button first.
 
-![LET'S PLAY](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/Landing_page.png)
+![LET'S PLAY](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/Main_page.png)
 
 - __Leaderboard Button__
 
