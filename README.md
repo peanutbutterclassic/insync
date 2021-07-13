@@ -10,7 +10,7 @@ The game comprises of four disciplines which are listed as follows:
 
 The website is easy to navigate as it follows a [three-click rule](https://brand-experience.ieee.org/the-3-click-rule-myth-or-fact/) and provides ease of use for people with disability.
 
-![Responsive Mockup](media/love_maths_mockup.png)
+![Responsive Mockup](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/Screen_Main.png)
 
 ## Features 
 
