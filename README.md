@@ -36,7 +36,7 @@ This quiz game is easy to operate, thanks to its simple design.
   3. STEM (Science, Technology, Engineering and Mathematics);
   4. Arts, Humanity & Literature.
 
-![Quiz Area](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/Sample_question.png)
+![Quiz Area](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/quiz.png)
 
 - __The Score Progress Area__
 
@@ -47,12 +47,12 @@ This quiz game is easy to operate, thanks to its simple design.
   - There is an option to return to the homepage if a user is unsatisfied with his/her performance and want to quit. That user may be tempted to give it another try once he/she gets back to the homepage. 
 
 - __The Score Board__
-![score](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/enter_username.png)
+![score](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/enter_score.png)
 
 Upon completing the game, user can save their score and check in the leaderboard to see how well they did against all odds.
 
 - __The Leaderboard Page__
-![InSync Leaderboard](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/leaderboard.png)
+![InSync Leaderboard](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/leaderboard_p3.png)
 
   - This is an area reserved for those who scored the highest points during the quiz. 
   - The data is gather from the game session(s) and stored locally to present the top performers. 
