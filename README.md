@@ -20,15 +20,17 @@ The game comprises of four disciplines which are listed as follows:
 
 The website is easy to navigate as it follow a three-click rule and provides ease of use for people with disability.
 
+![Responsice Mockup](media/love_maths_mockup.png)
+
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+This quiz game is easy to operate, thanks to its simple design. 
 
 ### Existing Features
 
-- __The Love Maths Logo and Heading__
+- __The InSync Landing Page__
 
-  - Featured at the top of the page, the Love Maths logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
+  - The LET'S PLAY button in the middle of the page is placed there on purpose to lure users to click this button first.
 
 ![Logo](media/love_maths_logo.png)
 
