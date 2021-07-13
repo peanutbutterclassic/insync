@@ -4,6 +4,10 @@
     background-color: rgb(134, 125, 125);
 }
 
+body {
+    color: whitesmoke;
+}
+
 .choice-container {
     display: flex;
     margin-bottom: 0.8rem;
@@ -11,7 +15,7 @@
     border-radius: 4px;
     background: rgb(18, 93, 255);
     font-size: 3rem;
-    /* min-width: 80%; */
+    min-width: 80%;
 }
 
 .choice-container:hover {
@@ -23,7 +27,7 @@
 
 .choice-prefix {
     padding: 2rem 2.5rem;
-    
+
 
 }
 
@@ -69,7 +73,7 @@
 #progressBarFull {
     height: 100%;
     background: rgb(11, 233, 36);
-    width: 0%;
+    width: 100%;
 }
 
 @media screen and (max-width: 768px) {
