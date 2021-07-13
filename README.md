@@ -168,4 +168,5 @@ I want to thank Code Institute's tutorial team for their patience and support th
 12. [Quizzit](https://quizizz.com/join)
 13. [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3763s)
 14. [Brad Wu](https://www.radiotimes.com/quizzes/pub-quiz-science/)
+15. [Font Awesome](https://fontawesome.com/)
 
