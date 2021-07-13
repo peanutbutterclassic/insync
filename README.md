@@ -36,13 +36,23 @@ This quiz game is easy to operate, thanks to its simple design.
   3. STEM (Science, Technology, Engineering and Mathematics);
   4. Arts, Humanity & Literature.
 
-![Quiz Area](media/love_maths_question.png)
+![Quiz Area](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/Sample_question.png)
 
-- __The Score Area__
+- __The Score Progress Area__
 
-  - This section will allow the user to see exactly how many correct and incorrect answers they have provided. 
+  - This feature helps the user keep track of the progress during the game. This feature includes indication based on the ten available questions selected at random. 
+  - Each correct answer selected adds 100 points to the score tracker on the top right side of the quiz page. No point is reward for incorrect answer. 
+  - Once the last question is answered, the game will move to the end page where user can enter a username to record the score to be viewed in the leaderboard. 
+  - If a user is unhappy with the score, this is the moment to give it another try by clicking on the play again button. 
+  - There is an option to return to the homepage if a user is unsatisfied with his/her performance and want to quit. That user may be tempted to give it another try once he/she gets back to the homepage. 
+
 
 ![score](media/love_maths_answer.png)
+
+- __The Leaderboard Page__
+
+  - This is an area reserved for those who score the highest points during the quiz. 
+  - The data is gather from the game session(s) and stored locally to present the top performers. 
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
@@ -50,9 +60,24 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-- Another feature idea
+- Since we are always looking to improve, any coder with a passion to promote education for all are encouraged to contribute to the following features:
+  - Create a more interactive quiz that covers different areas of interests; 
+  - Add more interactive sounds and technologies to the website.
+  - Another feature worth including in the future is the implementation of a time system with different game type such as racing against time.
 
 ## Testing 
+
+Testing was well documented throughout the development of this project in order to indentify issues and solutions for the overall learning outcomes. 
+
+Several notable brick walls that I have encountered during the development of this website are summarised below:
+- One of the most notable issue was the glitch that occured with the number of questions available for each quiz session which should have been 10 questions but 11 questions came up (11 out of 10). To resolve this issue, since there was no way to check javascript like HTML or CSS validator, the debugging process involved going line by line using Google Chrome Developer tool, to inspect the issue and second guessing the problem and pressuming possible solutions. 
+1. ![Glitch identified during debugging process](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/screen_error_image.png)
+2. ![Glitch identified during debugging process](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/increm_error_spotted.png)
+3. ![Glitch identified during debugging process](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/incremental_error_fixed.png)
+
+Although the issue was apparent as shown in image 1 but the answer to the issue did not come immediately. Figure 2 showed at the issue occured because of the nature of incrementation which meant [questionCounter > MAX_QUESTIONS] would not return a number less that 10. Intead, the following, as indicated in figure 3 above [questionCounter === MAX_QUESTIONS] returned the right number of questions for the said issue identified in figure 1.
+
+Another issue was identified while using Google Chrome Developer's tool during inspection of the website. 
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -66,7 +91,7 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validator Testing 
 
 - HTML
-    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-maths%2F)
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
 - CSS
     - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-maths%252F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 - JavaScript
