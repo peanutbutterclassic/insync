@@ -13,14 +13,14 @@ body {
     margin-bottom: 0.8rem;
     width: 100%;
     border-radius: 4px;
-    background: rgb(18, 93, 255);
+    background: rgb(80, 233, 10);
     font-size: 3rem;
     min-width: 80%;
 }
 
 .choice-container:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 103, 247, 0.5);
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(46, 247, 6, 0.74);
     transform: scale(1.02);
     transform: transform 100ms;
 }
@@ -55,11 +55,11 @@ body {
 .hud-prefix {
     text-align: center;
     font-size: 2rem;
-    
 }
 
 .hud-main-text {
     text-align: center;
+    padding: 5px 30px;
     
 }
 

@@ -22,7 +22,7 @@ table {
     width: 100%;
     padding: 1rem 2rem;
     border-collapse: collapse;
-    border: 1px solid black;
+    border: 1px solid rgb(245, 203, 16);
     text-align: center;
     background-color: rgb(36, 151, 7);
     margin-bottom: 5rem;
@@ -33,3 +33,25 @@ table {
     font-size: 3rem;
     font-weight: 800;
 }
+
+.return-button {
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: rgb(28, 26, 26);
+    background: linear-gradient(90deg, rgb(252, 235, 2) 0%, rgb(255, 217, 2) 100%);
+    border-radius: 4px;
+
+}
+
+
+.return-button:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(244, 240, 8);
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
