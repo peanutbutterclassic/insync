@@ -1,4 +1,3 @@
-
 # InSync 
 ## About InSync
 InSync is an online multidisciplinary educational game, which is designed to help users stay up to date with the current affairs as well as matters relating to STEM (Science, Technology, Engineering and Mathematics), Sports, Arts and Literature. 
