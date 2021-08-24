@@ -44,7 +44,7 @@ body {
 /* Heads up Display */
 
 #hud {
-    display: flex;
+    display:block;
     justify-content: space-between;
 }
 

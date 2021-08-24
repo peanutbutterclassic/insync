@@ -30,8 +30,11 @@ h2 {
     justify-content: center;
     align-items: center;
     max-width: 80rem;
+    /* max-width: 100%; */
     margin: 0 auto;
     padding: 2rem;
+    /* position: relative; */
+    position: fixed;
 }
 
 .flex-column {
