@@ -1,6 +1,6 @@
 # InSync 
 ## About InSync
-InSync is an online multidisciplinary educational game, which is designed to help users stay up to date with the current affairs as well as matters relating to STEM (Science, Technology, Engineering and Mathematics), Sports, Arts and Literature. 
+[InSync](https://peanutbutterclassic.github.io/insync/) is an online multidisciplinary educational game, which is designed to help users stay up to date with the current affairs as well as matters relating to STEM (Science, Technology, Engineering and Mathematics), Sports, Arts and Literature. 
 The game comprises of four disciplines which are listed as follows:
 1. Current affairs;
 2. Sports;
