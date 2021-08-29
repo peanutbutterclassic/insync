@@ -12,7 +12,7 @@ let availableQuestions = [];
 
 let questions = [
     {
-        question: "Lionel Messi won his 147th Argentina cap this week at the Copa América, equalling whose all-time record?",
+        question: "Lionel Messi won his 147th Argentina cap this week at the Copa América, equalling which player's all-time record?",
         choices: [
             { title: "Diego Maradona", answer: false },
             { title: "Javier Mascherano", answer: true },
