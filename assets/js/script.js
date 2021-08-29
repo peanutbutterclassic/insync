@@ -338,16 +338,16 @@ startGame = () => {
     score = 0;
     availableQuestions = [...questions];
     getNewQuestion();
-}
+};
 
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter === MAX_QUESTIONS) {
-        localStorage.setItem("mostRecentScore", score)
+        localStorage.setItem("mostRecentScore", score);
         
-        return window.location.assign("end.html")
+        return window.location.assign("end.html");
     }
 
-    questionCounter++
+    questionCounter++;
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
@@ -365,7 +365,7 @@ getNewQuestion = () => {
     availableQuestions.splice(questionIndex, 1);
 
     acceptingAnswers = true;
-}
+};
 
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
@@ -397,14 +397,14 @@ choices.forEach(choice => {
     choice.addEventListener("click", () => {
         click.play();
     });
-})
+});
 
 // incremement score
 incrementScore = (num) => {
     score += num;
     // additional code 
     scoreText.innerText = score;
-}
+};
 
 const setupAudio = () => {
     // Load audios
@@ -417,7 +417,7 @@ const setupAudio = () => {
             click.play();
         });
     });
-}
+};
 
 setupAudio();
 
@@ -435,17 +435,16 @@ var span = document.getElementsByClassName("close")[0];
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
   modal.style.display = "block";
-}
+};
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
-}
+};
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
-}
-
+};
