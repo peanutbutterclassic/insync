@@ -12,21 +12,12 @@ let availableQuestions = [];
 
 let questions = [
     {
-        question: "Lionel Messi won his 147th Argentina cap this week at the Copa América, equalling which player's all-time record?",
+        question: "Lionel Messi won his 147th Argentina cap at the Copa América, equalling which player's all-time record?",
         choices: [
             { title: "Diego Maradona", answer: false },
             { title: "Javier Mascherano", answer: true },
             { title: "Gabriel Batistuta", answer: false },
             { title: "Sergio Romero", answer: false },
-        ]
-    },
-    {
-        question: "Staying with the Copa América, Ben Brereton started his first game for Chile at the tournament and ended up scoring the winner against Bolivia. Where was Brereton born??",
-        choices: [
-            { title: "Santiago, Chile", answer: false },
-            { title: "Stranraer, Scotland", answer: false },
-            { title: "Stoke-on-Trent, England", answer: true },
-            { title: "St Asaph, Wales", answer: false },
         ]
     },
     {
@@ -39,30 +30,12 @@ let questions = [
         ]
     },
     {
-        question: "Jon Rahm won the first major of his career at the US Open on Sunday. What had happened to Rahm in his previous competition before the US Open?",
-        choices: [
-            { title: "He was 10-over par after two rounds and missed the cut", answer: false },
-            { title: "He smashed his putter in frustration midway through his final round and had to use a driver on the green in the remaining holes", answer: false },
-            { title: "He beat Louis Oosthuizen by a single shot on the final day – just like he did at the US Open a week later", answer: false },
-            { title: "He had to pull out before the last day of the tournament after testing positive for Covid-19", answer: true },
-        ]
-    },
-    {
         question: "Which team won their group at Euro 2020 even though just one of their players scored in their three matches?",
         choices: [
             { title: "Sweden", answer: false },
             { title: "Portugal", answer: false },
             { title: "England", answer: true },
             { title: "Ukraine", answer: false },
-        ]
-    },
-    {
-        question: "Complete this sequence: McStay, McClair, McAllister, McCoist …",
-        choices: [
-            { title: "Mctominay", answer: false },
-            { title: "McGinn", answer: false },
-            { title: "McKenna", answer: false },
-            { title: "McGregor", answer: true },
         ]
     },
     {
@@ -83,33 +56,7 @@ let questions = [
             { title: "He scored them both with his left foot – including a penalty – even though he is right-footed", answer: false },
         ]
     },
-    {
-        question: "Mark Cavendish has been given a late call-up to the Tour de France. This will be his 14th time competing in the race. Cavendish has won 30 stages at the Tour. Who is the only rider in history to have won more?",
-        choices: [
-            { title: "Eddy Merckx", answer: true },
-            { title: "Bernard Hinault", answer: false },
-            { title: "Greg LeMond", answer: false },
-            { title: "Alberto Contador", answer: false },
-        ]
-    },
-    {
-        question: "Joe Marler played a starring role for Harlequins as they came from 28-0 down to beat Bristol Bears 43-36 and book their place in the Premiership final. What was unusual about Marler’s preparations for the game?",
-        choices: [
-            { title: "He was at Wembley on the afternoon of the game to watch England v Croatia", answer: false },
-            { title: "He spent the 10 days before the match in quarantine", answer: false },
-            { title: "Unlike the rest of his teammates, he travelled to the match by helicopter", answer: true },
-            { title: "Marler, a former choirboy, was picked to sing the national anthem before the game (as Katherine Jenkins was busy)", answer: false },
-        ]
-    },
-    {
-        question: "The England rugby league team are playing a friendly on Friday night in Warrington. When did the team last play a match?",
-        choices: [
-            { title: "2016", answer: false },
-            { title: "2018", answer: true },
-            { title: "2019", answer: false },
-            { title: "They have already played six times this year – including twice this week", answer: false },
-        ]
-    },
+    
     // Science questions
     {
         question: "What does DNA stand for?",
