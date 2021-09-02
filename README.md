@@ -97,13 +97,13 @@ In the end, this particular issue was resolved by adding class="click" to every 
 - CSS
     - 93 errors were found when passing through the official [(Jigsaw) validator](http://www.css-validator.org/validator#errors)
 
-    ![CSS errors](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/css_errors.png)
+    ![CSS errors](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/documentation/css_errors.png)
 
     - Having been through several comments in different developers' forums, the issue could be ignored since most of the errors were directed to errors for em, rem, vh, and vw values. 
-    ![CSS error justification](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/css_validator.png)
+    ![CSS error justification](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/documentation/css_validator.png)
 
 - JavaScript
-![JavaScript validation](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/javascript_validator.png)
+![JavaScript validation](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/documentation/javascript_validator.png)
 
 - JavaScript validation showed 47 warnings when passing through the official [Jshint validator](https://jshint.com/)
     - The following metrics were returned: 
