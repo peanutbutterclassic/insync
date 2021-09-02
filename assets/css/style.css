@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron&display=swap');
 
 :root {
+    /* Keep background image for future reference in case of change of preference. */
     /* background: url("../images/pexels-garrett-johnson.jpg") no-repeat fixed center; */
     background: #282828;
 }
@@ -30,11 +31,13 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* Comment out for now as reference for future use. */
     /* max-width: 80rem; */
     max-width: 100%;
     margin: 0 auto;
     padding: 10px;
     position: relative;
+    /* Comment out for now as reference for future use. */
     /* position: fixed; */
 }
 
@@ -62,6 +65,7 @@ h2 {
 .quiz-box-button {
     font-size: 2.4rem;
     padding: 2rem 0;
+    /* Comment out for now as reference for future use. */
     /* width: 30rem; */
     width: 40rem;
     height: 15rem;
@@ -90,6 +94,7 @@ h2 {
 .lead-button {
     font-size: 2.4rem;
     padding: 2rem 0;
+    /* Comment out for now as reference for future use. */
     /* width: 30rem; */
     width: 100%;
     max-width: 100%;
@@ -187,13 +192,6 @@ input::placeholder {
 #saveScoreButton {
     border: none;
 }
-
-/* Not required */
-/* .fa-home {
-    margin-left: 1rem;
-    font-size: 2rem;
-    color: rgb(28, 26, 26);
-} */
 
 /* End game CSS */
 
@@ -296,8 +294,8 @@ body {
 .choice-container:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(46, 247, 6, 0.74);
+    transition: transform 150ms;
     transform: scale(1.02);
-    transform: transform 100ms;
 }
 
 .choice-prefix {
