@@ -147,7 +147,7 @@ A special mention to [Code Institute](https://codeinstitute.net/)'s tutoring tea
     * JavaScript.
 
 ## Acknowledgement
-I want to thank Code Institute's tutorial team for their patience and support throughout my coding development. Finally, a shout out to my mentor Guido who has been phenomenal since I started coding. He has given me valuable guidance and support while ensuring I take that stride to be adventurous with new technologies.
+I want to thank Code Institute's tutorial team for their patience and support throughout my coding development. Finally, a shout out to my mentor Guido who has been phenomenal since I started coding. He has given me valuable guidance and support while ensuring I take that stride to be adventurous with new technologies. To my peers on slack for motivation and inspiration. Special thanks to friends and families who helped checked the functionality on their mobile devices. The struggle is real but isn't life a constant learning process? 
 
 ## Reference
 1. Online Python Tutor: Embeddable Web-Based Program Visualization for CS Education. ACM Technical Symposium on Computer Science Education (SIGCSE), 2013. [ACM DL]
