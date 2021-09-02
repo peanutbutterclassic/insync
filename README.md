@@ -52,6 +52,11 @@ This quiz game is easy to operate, thanks to its simple design.
   - This is an area reserved for those who scored the highest points during the quiz. 
   - The data is gathered from the game session(s) and stored locally to present the top performers. 
 
+- __No Score Scenario__
+![No Score](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/documentation/screen_noscore.png)
+
+  - In case of incomplete quiz or no show by user, a "No score saved" notice will appear on the leaderboard.
+
 ### Features Left to Implement
 
 - Since we are always looking to improve, any coder with a passion to promote education for all are encouraged to contribute to the following features:
