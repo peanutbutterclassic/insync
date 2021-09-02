@@ -1,15 +1,15 @@
 # InSync 
 ## About InSync
-[InSync](https://peanutbutterclassic.github.io/insync/) is an online multidisciplinary educational game, which is designed to help users stay up to date with the current affairs as well as matters relating to STEM (Science, Technology, Engineering and Mathematics), Sports, Arts and Literature. 
+[InSync](https://peanutbutterclassic.github.io/insync/) is an online multidisciplinary educational game, which is designed to help users stay up to date with current affairs as well as matters relating to STEM (Science, Technology, Engineering and Mathematics), Sports, Arts and Literature. 
 The game comprises of four disciplines which are listed as follows:
 1. Current affairs;
 2. Sports;
 3. STEM (Science, Technology, Engineering and Mathematics);
 4. Arts, Humanity & Literature. 
 
-The [InSync](https://peanutbutterclassic.github.io/insync/) website is easy to navigate since it is intuitive and provides ease of use for people with disability.
+The [InSync](https://peanutbutterclassic.github.io/insync/) website is easy to navigate since it is intuitive and provides ease of use for people with disabilities.
 
-![Responsive Mockup](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/Screen_Main.png)
+![Responsive Mockup](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/documentation/ami_respon_main.png)
 
 ## Features 
 
@@ -25,7 +25,7 @@ This quiz game is easy to operate, thanks to its simple design.
 
 - __Leaderboard Button__
 
-  - This button takes the user straight to the leaderboard page where all the scores are stored in a two column table that includes NAME and SCORE.
+  - This button takes the user straight to the leaderboard page where all the scores are stored in a two-column table that includes NAME and SCORE.
 
 - __The Question section__
 
@@ -41,28 +41,28 @@ This quiz game is easy to operate, thanks to its simple design.
 
 - __The Score Progress Area__
 
-  - This feature helps the user keep track of the progress during the game. This feature includes indication based on the ten available questions selected at random. 
-  - Each correct answer selected adds 100 points to the score tracker at the top of the quiz page. No point is reward for incorrect answer. 
-  - Once the last question is answered, the game will move to the end page where user can enter a name to record the score, which can be viewed in the leaderboard. 
-  - If a user is unhappy with the score, he/she/they can press the RESTART button to go back to home page and click on LET'S START button.  
+  - This feature helps the user keep track of the progress during the game. This feature includes indications based on the ten available questions selected at random. 
+  - Each correct answer selected adds 100 points to the score tracker at the top of the quiz page. No point is rewarded for an incorrect answer. 
+  - Once the last question is answered, the game will move to the end page where the user can enter a name to record the score, which can be viewed on the leaderboard. 
+  - If a user is unhappy with the score, he/she/they can press the RESTART button to go back to the home page and click on LET'S START button to restart the quiz.  
 
 - __The Leaderboard Page__
 ![InSync Leaderboard](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/documentation/score_board.png)
 
   - This is an area reserved for those who scored the highest points during the quiz. 
-  - The data is gather from the game session(s) and stored locally to present the top performers. 
+  - The data is gathered from the game session(s) and stored locally to present the top performers. 
 
 ### Features Left to Implement
 
 - Since we are always looking to improve, any coder with a passion to promote education for all are encouraged to contribute to the following features:
-  - Create a more interactive quiz that covers different areas of interests; 
+  - Create a more interactive quiz that covers different areas of interest; 
   - Add more interactive sounds and technologies to the website;
-  - Another feature worth including in the future is the implementation of a time system with different game type such as racing against time;
+  - Another feature worth including in the future is the implementation of a time system with a different game types such as racing against time;
   - A score tracking system;
   - A timer (for speed reading of contents and answering questions);
   - A ranking system to create competition and engagement with prizes for top drawer;
   - Images to support the correct/incorrect answers;
-  - User can create a username; and,
+  - Users can create a username; and,
   - Feedback form.
 - Other technologies to include:
   - JavaScript Libraries:
@@ -75,20 +75,20 @@ This quiz game is easy to operate, thanks to its simple design.
 
 ## Testing 
 
-Testing was well documented throughout the development of this project in order to indentify issues and solutions for the overall learning outcomes. 
+Testing was well documented throughout the development of this project in order to identify issues and solutions for the overall learning outcomes. 
 
 Several notable brick walls that I have encountered during the development of this website are summarised below:
-- One of the most notable issue was the glitch that occured with the number of questions available for each quiz session which should have been 10 questions but 11 questions came up (11 out of 10). To resolve this issue, since there was no way to check javascript like HTML or CSS validator, the debugging process involved going line by line using Google Chrome Developer tool, to inspect the issue and second guessing the problem and pressuming possible solutions. 
+- One of the most notable issues was the glitch that occurred with the number of questions available for each quiz session which should have been 10 questions but 11 questions came up (11 out of 10). To resolve this issue, since there was no way to check javascript like HTML or CSS validator, the debugging process involved going line by line using Google Chrome Developer tool, to inspect the issue and second guessing the problem and presuming possible solutions. 
 1. ![Glitch identified during debugging process](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/screen_error_image.png)
 2. ![Glitch identified during debugging process](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/increm_error_spotted.png)
 3. ![Glitch identified during debugging process](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/incremental_error_fixed.png)
 
-Although the issue was apparent, as shown in image 1, but the solution did not come immediately. Figure 2 showed that the issue occured because of the nature of incrementation which meant [questionCounter > MAX_QUESTIONS] does not return a number less that 10. Instead, the following, as indicated in figure 3 [questionCounter === MAX_QUESTIONS], returned the right number of questions for the said issue identified in figure 1.
+Although the issue was apparent, as shown in image 1, but the solution did not come immediately. Figure 2 showed that the issue occurred because of the nature of incrementation which meant [questionCounter > MAX_QUESTIONS] does not return a number less than 10. Instead, the following, as indicated in figure 3 [questionCounter === MAX_QUESTIONS], returned the right number of questions for the said issue identified in figure 1.
 
-Another issue was identified while using Google Chrome Developer's tool during inspection of the website. 
+Another issue was identified while using Google Chrome Developer's tool during the inspection of the website. 
 ![Sound issue](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/Sound_issue.png)
 
-In the end, this particular issue was resolved by adding class="click" to every button that can be clicked. The javascript code is reported in script.js from line 409 to 422. 
+In the end, this particular issue was resolved by adding class="click" to every button that can be clicked. The javascript code is reported in script.js from line 409 to line 422. 
 
 ### Validator Testing 
 
@@ -115,7 +115,7 @@ In the end, this particular issue was resolved by adding class="click" to every 
 
 ### Unfixed Bugs
 
-The aim was to create a functioning quiz website. Major bug fixes have been performed and reported in the TESTING section. Considering the limited time left before deadline, addressing and fixing the validation of CSS and Javascript errors or warning shall be put on pending since the website is already working as expected. However, additional efforts will be allocated to improve and address issues such as favicon errors that keeps popping up and error 404.  
+The aim was to create a functioning quiz website. Major bugfixes have been performed and reported in the TESTING section. Considering the limited time left before the deadline, addressing and fixing the validation of CSS and Javascript errors or warnings shall be put on pending since the website is already working as expected. However, additional efforts will be allocated to improve and address issues such as favicon errors that keeps popping up and error 404.  
 
 ## Deployment
 
@@ -124,7 +124,7 @@ The aim was to create a functioning quiz website. Major bug fixes have been perf
 
 ## Credits 
 
-A special mention to [Code Institute](https://codeinstitute.net/)'s tutoring team for their support throughout my coding development. My mentor Guido has been phenomenal because he has kept encouraging me to try new things. The w3schools' resources have helped me overcome many hurdles. [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3763s)' tutorial on YouTube has helped me gain an knowledge on the logic behind creating a quiz through HTML, CSS and JavaScript. 
+A special mention to [Code Institute](https://codeinstitute.net/)'s tutoring team for their support throughout my coding development. My mentor Guido has been phenomenal because he has kept encouraging me to try new things. The w3schools' resources have helped me overcome many hurdles. [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=3763s)' tutorial on YouTube has helped me gain knowledge on the logic behind creating a quiz through HTML, CSS and JavaScript. 
 
 ### Content 
 
@@ -141,7 +141,7 @@ A special mention to [Code Institute](https://codeinstitute.net/)'s tutoring tea
     * CSS, 
     * JavaScript.
 
-## Acknowledgement 
+## Acknowledgement
 I want to thank Code Institute's tutorial team for their patience and support throughout my coding development. Finally, a shout out to my mentor Guido who has been phenomenal since I started coding. He has given me valuable guidance and support while ensuring I take that stride to be adventurous with new technologies.
 
 ## Reference
