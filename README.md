@@ -120,7 +120,7 @@ In the end, this particular issue was resolved by adding class="click" to every 
 
 ### Unfixed Bugs
 
-The aim was to create a functioning quiz website. Major bugfixes have been performed and reported in the TESTING section. Considering the limited time left before the deadline, addressing and fixing the validation of CSS and Javascript errors or warnings shall be put on pending since the website is already working as expected. However, additional efforts will be allocated to improve and address issues such as favicon errors that keeps popping up and error 404.  
+The aim was to create a functioning quiz website. Major bugfixes have been performed and reported in the TESTING section. Considering the limited time left before the deadline, addressing and fixing the validation of CSS and Javascript errors or warnings shall be put on pending since the website is already working as expected. However, additional efforts will be allocated to improve and address issues such as favicon errors that keeps popping up and error 404 when saving score in github io but the error does not persist in gitpod, which will require attention upon completion.   
 
 ## Deployment
 
