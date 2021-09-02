@@ -7,7 +7,7 @@ const renderScores = (scores) => {
             return `<tr class="high-score"><td>${score.name}</td><td>${score.score}</td></tr>`;
         }).join('');
     }
-    return `<p class="high-score">There are no scores to show</p>`;
+    return `<p class="high-score">You have not completed a quiz and saved your score.</p>`;
 }
 
 highScoresList.innerHTML = renderScores(highScores);
