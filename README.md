@@ -17,11 +17,11 @@ This quiz game is easy to operate, thanks to its simple design.
 
 ### Existing Features
 
+![LET'S PLAY](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/documentation/main_page.png)
+
 - __The InSync Landing Page__
 
   - The LET'S PLAY button in the middle of the page is placed there on purpose to help user navigate to start quiz.
-
-![LET'S PLAY](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/Main_page.png)
 
 - __Leaderboard Button__
 
@@ -35,23 +35,19 @@ This quiz game is easy to operate, thanks to its simple design.
   3. STEM (Science, Technology, Engineering and Mathematics);
   4. Arts, Humanity & Literature.
 
-![Quiz Area](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/quiz.png)
+![Quiz Area](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/documentation/screen_quiz_area.png)
+
+![Quiz Area](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/documentation/screen_quiz_area_2.png)
 
 - __The Score Progress Area__
 
   - This feature helps the user keep track of the progress during the game. This feature includes indication based on the ten available questions selected at random. 
   - Each correct answer selected adds 100 points to the score tracker at the top of the quiz page. No point is reward for incorrect answer. 
-  - Once the last question is answered, the game will move to the end page where user can enter a username to record the score to be viewed in the leaderboard. 
-  - If a user is unhappy with the score, this is the moment to give it another try by clicking on the play again button. 
-  - There is an option to return to the homepage if a user is unsatisfied with his/her performance and want to quit. That user may be tempted to give it another try once he/she gets back to the homepage. 
-
-- __The Score Board__
-![score](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/enter_score.png)
-
-Upon completing the game, user can save their score and check in the leaderboard to see how well they did against all odds.
+  - Once the last question is answered, the game will move to the end page where user can enter a name to record the score, which can be viewed in the leaderboard. 
+  - If a user is unhappy with the score, he/she/they can press the RESTART button to go back to home page and click on LET'S START button.  
 
 - __The Leaderboard Page__
-![InSync Leaderboard](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/leaderboard_p3.png)
+![InSync Leaderboard](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/documentation/score_board.png)
 
   - This is an area reserved for those who scored the highest points during the quiz. 
   - The data is gather from the game session(s) and stored locally to present the top performers. 
@@ -75,6 +71,7 @@ Upon completing the game, user can save their score and check in the leaderboard
     - Javascript framework:
         - [Vue.js](https://vuejs.org/) 
     - Google Charts
+    - Google Sheets
 
 ## Testing 
 
@@ -118,12 +115,12 @@ In the end, this particular issue was resolved by adding class="click" to every 
 
 ### Unfixed Bugs
 
-The aim was to create a functioning quiz website. Major bug fixes have been performed and reported in the TESTING section. Considering the limited time left before deadline, addressing and fixing the validation of CSS and Javascript errors or warning shall be put on pending since the website is already working as expected. However, additional efforts will be allocated to improve the quality of the code after receiving comments from external review.  
+The aim was to create a functioning quiz website. Major bug fixes have been performed and reported in the TESTING section. Considering the limited time left before deadline, addressing and fixing the validation of CSS and Javascript errors or warning shall be put on pending since the website is already working as expected. However, additional efforts will be allocated to improve and address issues such as favicon errors that keeps popping up and error 404.  
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - The live link can be found here - [InSync](https://peanutbutterclassic.github.io/insync/)
+- The site is deployed on GitHub pages. The steps to deploy are as follows: 
+  - The live link is available here - [InSync](https://peanutbutterclassic.github.io/insync/)
 
 ## Credits 
 
@@ -136,18 +133,13 @@ A special mention to [Code Institute](https://codeinstitute.net/)'s tutoring tea
 
 ### Media
 
-- Background image by [Lisa](https://www.pexels.com/photo/black-blue-and-orange-concrete-brick-858492/)
+- Sound effects are taken from [Zapslat](https://www.zapsplat.com/)
 
 ## Main Technologies
 * Required: 
     * HTML, 
     * CSS, 
     * JavaScript.
-
-
-## Reference
-1. Online Python Tutor: Embeddable Web-Based Program Visualization for CS Education. ACM Technical Symposium on Computer Science Education (SIGCSE), 2013. [ACM DL]
-2. [Quizzit](https://quizizz.com/join)
 
 ## Acknowledgement 
 I want to thank Code Institute's tutorial team for their patience and support throughout my coding development. Finally, a shout out to my mentor Guido who has been phenomenal since I started coding. He has given me valuable guidance and support while ensuring I take that stride to be adventurous with new technologies.
@@ -168,3 +160,5 @@ I want to thank Code Institute's tutorial team for their patience and support th
 13. [Brad Wu](https://www.radiotimes.com/quizzes/pub-quiz-science/)
 14. [Font Awesome](https://fontawesome.com/)
 15. [Pexels, Garrett johnson](https://www.pexels.com/photo/blue-arcade-joystick-3800795/)
+16. Online Python Tutor: Embeddable Web-Based Program Visualization for CS Education. ACM Technical Symposium on Computer Science Education (SIGCSE), 2013. [ACM DL]
+17. [Quizzit](https://quizizz.com/join)
