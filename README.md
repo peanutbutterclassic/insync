@@ -79,14 +79,14 @@ Testing was well documented throughout the development of this project in order 
 
 Several notable brick walls that I have encountered during the development of this website are summarised below:
 - One of the most notable issues was the glitch that occurred with the number of questions available for each quiz session which should have been 10 questions but 11 questions came up (11 out of 10). To resolve this issue, since there was no way to check javascript like HTML or CSS validator, the debugging process involved going line by line using Google Chrome Developer tool, to inspect the issue and second guessing the problem and presuming possible solutions. 
-1. ![Glitch identified during debugging process](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/screen_error_image.png)
-2. ![Glitch identified during debugging process](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/increm_error_spotted.png)
-3. ![Glitch identified during debugging process](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/incremental_error_fixed.png)
+1. ![Glitch identified during debugging process](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/documentation/screen_error_image.png)
+2. ![Glitch identified during debugging process](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/documentation/increm_error_spotted.png)
+3. ![Glitch identified during debugging process](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/documentation/incremental_error_fixed.png)
 
 Although the issue was apparent, as shown in image 1, but the solution did not come immediately. Figure 2 showed that the issue occurred because of the nature of incrementation which meant [questionCounter > MAX_QUESTIONS] does not return a number less than 10. Instead, the following, as indicated in figure 3 [questionCounter === MAX_QUESTIONS], returned the right number of questions for the said issue identified in figure 1.
 
 Another issue was identified while using Google Chrome Developer's tool during the inspection of the website. 
-![Sound issue](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/Sound_issue.png)
+![Sound issue](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/documentation/Sound_issue.png)
 
 In the end, this particular issue was resolved by adding class="click" to every button that can be clicked. The javascript code is reported in script.js from line 409 to line 422. 
 
