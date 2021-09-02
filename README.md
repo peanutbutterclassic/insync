@@ -7,7 +7,7 @@ The game comprises of four disciplines which are listed as follows:
 3. STEM (Science, Technology, Engineering and Mathematics);
 4. Arts, Humanity & Literature. 
 
-The website is easy to navigate as it follows a [three-click rule](https://brand-experience.ieee.org/the-3-click-rule-myth-or-fact/) and provides ease of use for people with disability.
+The [InSync](https://peanutbutterclassic.github.io/insync/) website is easy to navigate since it is intuitive and provides ease of use for people with disability.
 
 ![Responsive Mockup](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/Screen_Main.png)
 
@@ -19,17 +19,17 @@ This quiz game is easy to operate, thanks to its simple design.
 
 - __The InSync Landing Page__
 
-  - The LET'S PLAY button in the middle of the page is placed there on purpose to lure users to click this button first.
+  - The LET'S PLAY button in the middle of the page is placed there on purpose to help user navigate to start quiz.
 
 ![LET'S PLAY](https://raw.githubusercontent.com/peanutbutterclassic/insync/master/assets/images/Main_page.png)
 
 - __Leaderboard Button__
 
-  - This button takes user straight to the leaderboard page where all the scores are stored in a two column table that includes NAME and SCORE.
+  - This button takes the user straight to the leaderboard page where all the scores are stored in a two column table that includes NAME and SCORE.
 
 - __The Question section__
 
-  - Upon clicking on the LET'S PLAY button, the user will be directed to the quiz page where he/she will have to answer ten randomly selected questions from a database of 60 questions covering four different disciplines which are as follows:
+  - Upon clicking on the LET'S PLAY button, the user will be directed to the quiz page where he/she/they will have to answer ten randomly selected questions from a database of questions covering four different disciplines which are listed as follows:
   1. Current affairs;
   2. Sports;
   3. STEM (Science, Technology, Engineering and Mathematics);
@@ -40,7 +40,7 @@ This quiz game is easy to operate, thanks to its simple design.
 - __The Score Progress Area__
 
   - This feature helps the user keep track of the progress during the game. This feature includes indication based on the ten available questions selected at random. 
-  - Each correct answer selected adds 100 points to the score tracker on the top right side of the quiz page. No point is reward for incorrect answer. 
+  - Each correct answer selected adds 100 points to the score tracker at the top of the quiz page. No point is reward for incorrect answer. 
   - Once the last question is answered, the game will move to the end page where user can enter a username to record the score to be viewed in the leaderboard. 
   - If a user is unhappy with the score, this is the moment to give it another try by clicking on the play again button. 
   - There is an option to return to the homepage if a user is unsatisfied with his/her performance and want to quit. That user may be tempted to give it another try once he/she gets back to the homepage. 
